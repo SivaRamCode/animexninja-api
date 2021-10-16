@@ -7,7 +7,7 @@ const port = 5000;
 
 app.use(cors());
 
-const baseURL = "https://gogoanime.pro/";
+const baseURL = "https://goload.one/";
 
 app.get("/api/home", (req, res) => {
   let info = {
