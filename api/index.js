@@ -7,18 +7,18 @@ const port = 5000;
 
 app.use(cors());
 
-const baseURL = "https://gogoanime.ai/";
+const baseURL = "https://goload.one/";
 
 app.get("/api/home", (req, res) => {
   let info = {
-    popular: "https://anime-x.vercel.app/api/popular/:page",
-    details: "https://anime-x.vercel.app/api/details/:id",
-    search: "https://anime-x.vercel.app/api/search/:word/:page",
-    episode_link: "https://anime-x.vercel.app/api/watching/:id/:episode",
-    genre: "https://anime-x.vercel.app/api/genre/:type/:page",
-    recently_added: "https://anime-x.vercel.app/api/recentlyadded/:page",
-    anime_list: "https://anime-x.vercel.app/api/list/:page",
-    genrelist: "https://anime-x.vercel.app/api/genrelist",
+    popular: "https://sivama.vercel.app/api/popular/:page",
+    details: "https://sivama.vercel.app/api/details/:id",
+    search: "https://sivama.vercel.app/api/search/:word/:page",
+    episode_link: "https://sivama.vercel.app/api/watching/:id/:episode",
+    genre: "https://sivama.vercel.app/api/genre/:type/:page",
+    recently_added: "https://sivama.vercel.app/api/recentlyadded/:page",
+    anime_list: "https://sivama.vercel.app/api/list/:page",
+    genrelist: "https://sivama.vercel.app/api/genrelist",
   };
   res.send(info);
 });
