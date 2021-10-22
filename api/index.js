@@ -11,14 +11,14 @@ const baseURL = "https://www1.gogoanime.ai/";
 
 app.get("/api/home", (req, res) => {
   let info = {
-    popular: "https://sivama.vercel.app/api/popular/:page",
-    details: "https://sivama.vercel.app/api/details/:id",
-    search: "https://sivama.vercel.app/api/search/:word/:page",
+    popular: "https://gogoanime.pe.sivapi.ml/api/popular/:page",
+    details: "https://gogoanime.pe.sivapi.ml/api/details/:id",
+    search: "https://gogoanime.pe.sivapi.ml/api/search/:word/:page",
     episode_link: "https://sivama.vercel.app/api/watching/:id/:episode",
-    genre: "https://sivama.vercel.app/api/genre/:type/:page",
-    recently_added: "https://sivama.vercel.app/api/recentlyadded/:page",
-    anime_list: "https://sivama.vercel.app/api/list/:page",
-    genrelist: "https://sivama.vercel.app/api/genrelist",
+    genre: "https://gogoanime.pe.sivapi.ml/api/genre/:type/:page",
+    recently_added: "https://gogoanime.pe.sivapi.ml/api/recentlyadded/:page",
+    anime_list: "https://gogoanime.pe.sivapi.ml/api/list/:page",
+    genrelist: "https://gogoanime.pe.sivapi.ml/api/genrelist",
   };
   res.send(info);
 });
